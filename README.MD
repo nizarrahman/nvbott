@@ -76,6 +76,7 @@ Invoice akan dikirim otomatis setelah pembayaran berhasil dalam bentuk gambar be
 
 ## 📄 License
 
-Proyek ini menggunakan lisensi MIT. Silakan gunakan dan kembangkan dengan bebas.
+Script ini di jual silahkan hubungi admin
+whatsapp: [6287856848569](https://wa.me/6287856848569)
 
 ---
