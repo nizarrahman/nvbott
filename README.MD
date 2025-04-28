@@ -86,6 +86,9 @@ whatsapp: [6287856848569](https://wa.me/6287856848569)
 
 
 ## ✨ Versi Update: 28 April 2025
+## Version 1.0.2 - 2025-04-28
+- Menambahkan fitur `.setdana <nomor>` untuk mengganti nomor Dana tujuan WD.
+- Pengguna dapat mengubah nomor Dana tanpa perlu mengedit script.
 ## Version 1.0.1 - 2025-04-28
 - Memperbaiki logika status WD, agar bot tidak mengirimkan "WD Gagal" jika transaksi sukses.
 - Mengubah pemeriksaan status transaksi menjadi `status === "Sukses"`.
