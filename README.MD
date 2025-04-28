@@ -86,6 +86,49 @@ whatsapp: [6287856848569](https://wa.me/6287856848569)
 
 
 ## ✨ Versi Update: 28 April 2025
+## [1.0.3] - 2025-04-28
+### Added
+- Fitur `.wd <jumlah>`  
+  → Menarik saldo Dana melalui OkeConnect otomatis berdasarkan nominal input.  
+  → Support pencarian produk `d1`, `d2` (DANA), dst berdasarkan harga.
+  → Console log lengkap: sukses, gagal, salah pin/password.
+
+- FIXED `.setdana <nomor>`  
+  → Mengubah `global.dana` di `wd.js` langsung dari command.
+
+- Fitur `.setidorkut <ID>`  
+  → Mengubah `global.IdMerchant` di `wd.js` langsung dari command.  
+  → Format harus diawali `OK` (contoh: `OK123456`).
+
+- Fitur `.setpinorkut <pin>`  
+  → Mengubah `global.pinorkut` di `wd.js`.
+
+- Fitur `.setpworkut <password>`  
+  → Mengubah `global.passwordorkut` di `wd.js`.
+
+### Changed
+- Semua perubahan terhadap `wd.js` otomatis membuat **backup** ke file `wd.js.bak` sebelum menulis ulang.
+
+### Security
+- Semua command `.wd`, `.setdana`, `.setidorkut`, `.setpinh2h`, dan `.setpwh2h` hanya bisa digunakan oleh **owner** (`handler.owner = true`).
+
+---
+
+### Format singkat:
+| Command | Fungsi | 
+|:--------|:-------|
+| `.wd <jumlah>` | Withdraw saldo Dana otomatis |
+| `.setdana <nomor>` | Set nomor Dana tujuan |
+| `.setidorkut <id>` | Set IdMerchant OkeConnect |
+| `.setpinorkut <pin>` | Set PIN transaksi ORDER KOUTA |
+| `.setpworkut <password>` | Set password transaksi orkut |
+
+---
+
+> Catatan:  
+> Setelah menggunakan command `.setidorkut`, `.setpinorkut`, atau `.setpworkut`, **disarankan restart bot** agar perubahan benar-benar diterapkan sempurna.
+
+---
 ## Version 1.0.2 - 2025-04-28
 - Menambahkan fitur `.setdana <nomor>` untuk mengganti nomor Dana tujuan WD.
 - Pengguna dapat mengubah nomor Dana tanpa perlu mengedit script.
