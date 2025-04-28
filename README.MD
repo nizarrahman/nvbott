@@ -82,7 +82,20 @@ whatsapp: [6287856848569](https://wa.me/6287856848569)
 ---
 
 
-# 📋 CHANGELOG - Sewa Bot
+# 📋 CHANGELOG - NV Bot
+
+
+## ✨ Versi Update: 28 April 2025
+## Version 1.0.1 - 2025-04-28
+- Memperbaiki logika status WD, agar bot tidak mengirimkan "WD Gagal" jika transaksi sukses.
+- Mengubah pemeriksaan status transaksi menjadi `status === "Sukses"`.
+- Menambahkan log error ketika PIN atau password salah.
+- Menambahkan log untuk setiap request transaksi WD yang dikirim.
+- Menambahkan log untuk hasil transaksi WD.
+
+## Version 1.0.0 - 2025-04-20
+- Menambahkan fitur WD dengan menggunakan OkeConnect API.
+- Memungkinkan pengguna melakukan withdrawal dengan harga yang sesuai menggunakan command `.wd <nominal>`.
 
 ## ✨ Versi Update: 27 April 2025
 
@@ -140,4 +153,4 @@ whatsapp: [6287856848569](https://wa.me/6287856848569)
 
 ---
 
-> Dibuat dengan ❤️ oleh Nizar Rahman Fadillah - 2025
+> Dibuat dengan ❤️ oleh Nizar  - 2025
