@@ -84,6 +84,34 @@ whatsapp: [6287856848569](https://wa.me/6287856848569)
 
 # 📋 CHANGELOG - NV Bot
 
+## ✨ Versi Update:
+
+### **v2.0 - 1 Mei 2025**
+
+---
+
+### 🆕 **Fitur Baru**
+- **Integrasi Discord Webhook**:
+  - Notifikasi **sukses pembayaran** (warna hijau).
+  - Notifikasi **expired pembayaran** (warna merah).
+- **Support Zona Waktu Asia/Jakarta**:
+  - Waktu expired dan timestamp log menyesuaikan zona waktu lokal.
+- **Notifikasi Admin Tambahan**:
+  - Admin kedua mendapatkan pemberitahuan jika transaksi berhasil.
+
+### 💰 **Pembaruan Pembayaran**
+- **Pajak/fee Acak** ditambahkan ke total harga.
+- **QRIS Dinamis**: Menggunakan sistem QRIS dinamis untuk pembayaran.
+
+### 🧠 **Perbaikan UX dan Logika**
+- **Cek Status Pembayaran** dilakukan setiap 12 detik, dengan batas waktu otomatis 5 menit.
+- **Pesan QR** otomatis dihapus setelah pembayaran berhasil atau expired.
+- **Format Pesan** lebih informatif: mencakup paket, harga, ID Order, dan waktu expired.
+
+### 🧪 **Validasi Pembayaran**
+- **Validasi Input**: Memastikan format argumen sesuai.
+- **Verifikasi Pembayaran**: Memastikan jumlah yang dibayarkan cocok dengan total.
+
 
 ## ✨ Versi Update: 28 April 2025
 ## [1.0.3] - 2025-04-28
